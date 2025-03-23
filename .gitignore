@@ -1,3 +1,43 @@
 media/
 notes.txt
 ._*
+
+cam-app/node_modules
+cam-app/.pnp
+cam-app/.pnp.*
+cam-app/.yarn/*
+
+cam-app/!.yarn/patches
+cam-app/!.yarn/plugins
+cam-app/!.yarn/releases
+cam-app/!.yarn/versions
+
+# testing
+cam-app/coverage
+
+# next.js
+cam-app/.next/
+cam-app/out/
+
+# production
+cam-app/build
+
+# misc
+cam-app/.DS_Store
+cam-app/*.pem
+
+# debug
+cam-app/npm-debug.log*
+cam-app/yarn-debug.log*
+cam-app/yarn-error.log*
+cam-app/.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+cam-app/.env*
+
+# vercel
+cam-app/.vercel
+
+# typescript
+cam-app/*.tsbuildinfo
+cam-app/next-env.d.ts

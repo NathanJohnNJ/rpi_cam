@@ -1,0 +1,78 @@
+/********* FONTS *********/
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght,CRSV,SHRP@100..900,1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+  font-family: 'NJTD-Regular';
+  src: url(../fonts/NJTD-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+};
+@font-face {
+  font-family: 'NJTD-Bold';
+  src: url(../fonts/NJTD-Bold.ttf) format('truetype');
+  font-weight: bold;
+  font-style:normal
+}
+@font-face {
+  font-family: 'NathanOutline-Regular';
+  src: url(../fonts/NathanOutline-Regular.woff2) format('woff2');
+  font-weight: bold;
+  font-style:normal
+}
+@font-face {
+  font-family: 'Geologica-Sharp';
+  src: url(../fonts/Geologica-Sharp.woff2) format('woff2');
+  font-weight: bold;
+  font-style:normal
+}
+/********* COLOUR VARIABLES *********/
+
+:root{
+  --white: hsl(228, 99%, 99%);
+  --light: #EEEEEE;
+  --dark: #323232;
+  --black: hsl(228, 99%, 5%);
+  --red: rgb(155, 16, 6);
+  --blue: rgb(10, 35, 150);
+  --green: rgb(8, 63, 22);
+  --rose: rgb(251 113 133);
+  --lightRose: rgb(253 164 175);
+  --purple: rgb(88 28 135);
+}
+
+.nav-main .navbar-header{
+  font-family: 'Geologica-Sharp';
+}
+
+.navbar-nj{
+  font-family: 'NathanOutline-Regular';
+}
+
+.navbar-nj:hover{
+  letter-spacing: 1vw;
+}
+
+.help-title{
+  font-family: 'Geologica-Sharp';
+  font-size:16px;
+}
+.help-heading{
+  font-family: 'Geologica-Sharp';
+  font-size:14px;
+}
+.help-body{
+  font-family: 'Poppins';
+  font-size:12px;
+}
+.help-link{
+  font-family: 'Poppins';
+  font-size:12px;
+  text-decoration: none;
+  color: var(--blue);
+}
+.help-link:hover{
+  font-family: 'Poppins';
+  font-size:12.5px;
+  text-decoration: none;
+  color: var(--blue);
+}

@@ -1,0 +1,14 @@
+annotation Motion Pi %D/%M/%Y %h:%m:%s. %c.  %f
+anno3_custom_text_colour 1
+anno3_custom_text_Y 100
+anno3_custom_text_U 237
+anno3_custom_text_V 500
+rotation 0
+width 650
+quality 25
+fps_divider 2
+motion_external 0
+motion_threshold 1250
+motion_startframes 25
+motion_stopframes 200
+stat_pass 1
